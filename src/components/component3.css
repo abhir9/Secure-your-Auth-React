@@ -1,0 +1,25 @@
+.component3-container {
+  width: 153px;
+  height: 34px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+.component3-icon {
+  fill: #039028;
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 767px) {
+  .component3-container {
+    width: 152px;
+    height: 50px;
+  }
+}
+@media(max-width: 479px) {
+  .component3-container {
+    width: 144px;
+    height: 34px;
+  }
+}
